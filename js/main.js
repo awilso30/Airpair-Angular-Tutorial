@@ -11,16 +11,16 @@ var app = angular.module('tutorialWebApp', [
 app.config(['$routeProvider', function ($routeProvider) {
 $routeProvider
 // Home
-.when("/", {templateUrl: "partials/home.html", <span class="highlight">controller: "PageCtrl"</span>})
+.when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
 // Pages
-.when("/about", {templateUrl: "partials/about.html", <span class="highlight">controller: "PageCtrl"</span>})
-.when("/faq", {templateUrl: "partials/faq.html", <span class="highlight">controller: "PageCtrl"</span>})
+.when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
+.when("/faq", {templateUrl: "partials/faq.html", controller: "PageCtrl"})
 /* etc… routes to other pages… */
 // Blog
-.when("/blog", {templateUrl: "partials/blog.html", <span class="highlight">controller: "BlogCtrl"</span>})
-.when("/blog/post", {templateUrl: "partials/blog_item.html", <span class="highlight">controller: "BlogCtrl"</span>})
+.when("/blog", {templateUrl: "partials/blog.html", controller: "BlogCtrl"})
+.when("/blog/post", {templateUrl: "partials/blog_item.html", controller: "BlogCtrl")
 // else 404
-.otherwise("/404", {templateUrl: "partials/404.html", <span class="highlight">controller: "PageCtrl"</span>});
+.otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
 }]);
 
 /**

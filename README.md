@@ -1,9 +1,8 @@
-Quick Angular tutorial example from https://www.airpair.com/angularjs/building-angularjs-app-tutorial
+AngularJS Tutorial 1
+====================
 
-Built using Bootstrap modern business theme: https://startbootstrap.com/template-overviews/modern-business/
+author: [Nick Kaye](http://www.nickkaye.com)
 
-and
+**NOTE:  We’re referencing all of our vendor dependencies (e.g. Bootstrap, jQuery, Angular) at outside URLs.   Therefore, it is necessary to host our site while we’re working on it.  Be sure we are viewing it in a browser with http:// -- not file://**
 
-HTML5 Boilerplate: https://html5boilerplate.com/
-
-See the live site here: https://awilso30.github.io/Airpair-Angular-Tutorial/
+View the [live demo](http://airpair.github.io/demos/2014/09/T0021-airpair-angularjs-tutorial).
